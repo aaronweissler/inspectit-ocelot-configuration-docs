@@ -29,3 +29,10 @@ hs_err_pid*
 *.ipr
 */out/
 /components/*/out/
+
+#gradle
+.gradle
+*build/
+!gradle/wrapper/gradle-wrapper.jar
+*.swp
+.DS_STORE
